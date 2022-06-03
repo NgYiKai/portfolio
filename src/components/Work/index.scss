@@ -7,6 +7,10 @@
       width: 40%;
       max-height: 90%;
     }
+
+    a{
+      color: #ffd700;
+    }
   
     h1 {
       color: #fff;
@@ -44,10 +48,13 @@
         opacity: 0;
         width: 32px;
         height: auto;
+        position: relative;
         animation: rotateIn 1s linear both;
         animation-delay: 1.4s;
       }
     }
+
+    
   
     h2 {
       color: #ffd700;

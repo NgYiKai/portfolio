@@ -10,6 +10,7 @@ import {
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import inventory from '../../assets/images/inventory.jpg' 
 import './index.scss'
 
 const Work = () => {
@@ -17,7 +18,7 @@ const Work = () => {
 
   return (
     <>
-      <div className="container about-page">
+      <div className="container work-page">
         <div className="text-zone">
           <h1>
             <AnimatedLetters
@@ -26,24 +27,54 @@ const Work = () => {
               idx={15}
             />
           </h1>
-          <h2 color=''>
-              1.
+          <h2>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={['1.Personal website']}
+              idx={15}
+            />
           </h2>
           <p>
-            I'm very ambitious front-end developer looking for a role in
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+          A personal portfolio website that is built using React
+          My personal website where you can know more about me and my work 
           </p>
-          <p align="LEFT">
-            I'm quietly confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
-          </p>
-         
+          <a href="https://github.com/NgYiKai/portfolio">Source Code</a>
+          <h2>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={['2.Inventory Management App']}
+              idx={15}
+            />
+          </h2>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+          Simple and easy to use mobile app to keep track of the number of items in inventory
+          Written in Java by using Android Studio					
+          Backend with firebase for authentication and to store user information
           </p>
+          <a href="https://github.com/NgYiKai/portfolio">Source Code</a>
+
+          <h2>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={['3.StudyBuddy']}
+              idx={15}
+            />
+          </h2>
+          <p>
+          A place for people to elarn
+          </p>
+          <a href="https://github.com/NgYiKai/portfolio">Source Code</a>
+          <h2>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={['4.Queue Management system']}
+              idx={15}
+            />
+          </h2>
+          <p>
+            Queue Management system
+          </p>
+          <a href="https://github.com/NgYiKai/portfolio">Source Code</a>
          
         </div>
 
