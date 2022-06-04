@@ -35,10 +35,11 @@ const Work = () => {
             />
           </h2>
           <p>
-          A personal portfolio website that is built using React
-          My personal website where you can know more about me and my work 
+          A portfolio website which is this one that you are currently looking at. It is built using React.
           </p>
+          <div className=''>
           <a href="https://github.com/NgYiKai/portfolio">Source Code</a>
+          </div>
           <h2>
             <AnimatedLetters
               letterClass={letterClass}
@@ -47,11 +48,13 @@ const Work = () => {
             />
           </h2>
           <p>
-          Simple and easy to use mobile app to keep track of the number of items in inventory
+          Simple and easy to use mobile app to keep track of the number of items in inventory as well as the transaction history
+          <br/>
           Written in Java by using Android Studio					
+          <br/>
           Backend with firebase for authentication and to store user information
           </p>
-          <a href="https://github.com/NgYiKai/portfolio">Source Code</a>
+          <a href="https://github.com/NgYiKai/InventoryManagement">Source Code</a>
 
           <h2>
             <AnimatedLetters
@@ -61,9 +64,9 @@ const Work = () => {
             />
           </h2>
           <p>
-          A place for people to elarn
+          A chatroom-like website that is built using Django where people can join various channel with different topics that they are interested with and post for questions and interact with other peoples. 
           </p>
-          <a href="https://github.com/NgYiKai/portfolio">Source Code</a>
+          <a href="https://https://github.com/NgYiKai/StudyBud">Source Code</a>
           <h2>
             <AnimatedLetters
               letterClass={letterClass}
@@ -71,10 +74,17 @@ const Work = () => {
               idx={15}
             />
           </h2>
+          <div className=''>
           <p>
-            Queue Management system
+          A web application written in PHP and MySQL database					   
+          <br/>
+          The system included a chatbot that was implemented by using AJAX , able to answer some frequently asked question in an intuitive chat interface
+          <br/>
+          User can view real-time queue data and queue up to meet with the counsellor if the chatbot wasn’t able to answer their question
+
           </p>
-          <a href="https://github.com/NgYiKai/portfolio">Source Code</a>
+          <a href="https://github.com/NgYiKai/edufair">Source Code</a>
+          </div>
          
         </div>
 

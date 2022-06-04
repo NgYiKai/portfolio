@@ -27,16 +27,25 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm very ambitious developer looking for a role in
-            established IT company with the opportunity to work with the latest
+            I'm a very ambitious and passionate fresh graduate computer science student and developer
+            looking for a role in established IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
           <p align="LEFT">
-            I'm quietly confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+          President in Scout club during secondary school years , a natural leader and a good team-player.
+          <br/>
+          Join the technical team in Computer Science Society during my university year, help to organize several coding workshop.
+          <br/>
+          Working as a part time private tutor for elementary and primary school student.
           </p>
+          <h2>Education</h2>
           <p>
-            
+          
+          2013-2017  Chong Hwa Independent High School
+          <br/>
+          2018-2019  Methodist College Kuala Lumpur
+          <br/>
+          2019-2022  University of Nottingham
           </p>
         </div>
 

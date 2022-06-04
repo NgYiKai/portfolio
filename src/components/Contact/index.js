@@ -44,7 +44,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities. If you have an offer, opportunity, or introduction that makes my life more interesting.Contact me through the form below.
+            I am interested in freelance opportunities. If you have an offer, opportunity, or introduction that makes my life more interesting ,contact me through the form below.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
