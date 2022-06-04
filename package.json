@@ -1,6 +1,6 @@
 { 
   "name": "react-portfolio",
-  "homepage":"https://ngyikai.github.io",
+  "homepage":"https://ngyikai.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
