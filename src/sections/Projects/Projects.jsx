@@ -5,12 +5,19 @@ import cache from '../../assets/projects/cache.png';
 import compiler from '../../assets/projects/compiler.png';
 import inventory from '../../assets/projects/inventory.png';
 import queue from '../../assets/projects/queue.png';
+import cobra from '../../assets/projects/cobra.png';
 
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
+        <ProjectCard
+          src={cobra}
+          link="https://github.com/NgYiKai"
+          h3="Phone Cobra"
+          p="E-commerce platform for custom phone cases built using React, Next.js, TailwindCSS, Prisma and Postgresql"
+        />
         <ProjectCard
           src={server}
           link="https://github.com/NgYiKai"
