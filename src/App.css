@@ -106,3 +106,14 @@ p {
     }
 }
 }
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
