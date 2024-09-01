@@ -11,11 +11,11 @@ const Skills2 = () => {
             <SkillList2 />
           </div>
         </div>
-        <img
+        {/* <img
           src="./assets/arrow.png"
           alt="Arrow icon"
           className="icon arrow"
-        />
+        /> */}
       </section>
     )
 }

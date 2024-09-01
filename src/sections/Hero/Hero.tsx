@@ -35,7 +35,7 @@ function Hero() {
         <h1>
           Ng Yi Kai
         </h1>
-        <h2>Software Developer</h2>
+        <h2>Software Enginner</h2>
         <span>
           <a href="https://github.com/NgYiKai" target="_blank">
             <img src={githubIcon} alt="Github icon" />

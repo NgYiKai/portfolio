@@ -3,7 +3,7 @@ import styles from './Narbar.module.css';
 const Navbar = () => {
     return (
         <nav id="desktop-nav">
-            <div className={styles.logo}>John Doe</div>
+            <div className={styles.logo}>Ng Yi Kai</div>
             <div>
             <ul className={styles['nav-links']}>
                 <li><a href="#about">About</a></li>
