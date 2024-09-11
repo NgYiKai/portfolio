@@ -13,13 +13,13 @@ import Skills2 from './sections/Skills2/Skills2';
 function App() {
   return (
     <>
-      {/* <Navbar/> */}
+      <Navbar/>
       <Hero />
-      {/* <AboutMe/> */}
+      <AboutMe/>
       {/* <Projects /> */}
       <Projects2 />
-      <Skills />
-      {/* <Skills2/> */}
+      {/* <Skills /> */}
+      <Skills2/>
       <Contact />
       <Footer />
     </>

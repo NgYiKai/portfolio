@@ -29,12 +29,6 @@ justify-content: center;
 margin: 0 auto 60px;
 }
 
-#root {
-display: flex;
-flex-direction: column;
-gap: 60px;
-}
-
 h1,
 h2,
 h3,
@@ -79,9 +73,7 @@ cursor: pointer;
 }
 
 @media (width >= 800px) {
-#root {
-    gap: 100px;
-}
+
 h1 {
     font-size: 40px;
 }
@@ -98,9 +90,7 @@ p {
 }
 
 @media (width >= 1400px) {
-    #root {
-    gap: 200px;
-    }
+
     h1 {
     font-size: 48px;
     }
@@ -120,4 +110,10 @@ p {
     position: absolute;
     right: -5rem;
     bottom: 2.5rem;
+}
+
+@layer base {
+  :root {
+        --radius: 0.5rem;
+    }
 }

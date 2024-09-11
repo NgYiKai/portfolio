@@ -2,7 +2,7 @@ import styles from './ContactStyles.module.css';
 
 function Contact() {
   return (
-    <section id="contact" className={styles.container}>
+    <section id="contact" className='text-center md:min-h-[80vh]'>
       <h1 className="sectionTitle">Contact</h1>
       <form action="https://formspree.io/f/xrbzzjpe" method="post">
         <div className="formGroup">

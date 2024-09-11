@@ -2,8 +2,8 @@ import styles from './FooterStyles.module.css';
 
 function Footer() {
   return (
-    <section id="footer" className={styles.container}>
-      <p>
+    <section id="footer">
+      <p className='text-center text-base'>
         &copy; 2024 Ng Yi Kai. <br />
         All rights reserved.
       </p>
