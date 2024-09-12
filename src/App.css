@@ -4,7 +4,7 @@
 
 :root {
     --background-color: #fff;
-    --btn-color: #0987f2;
+    --btn-color: #000000;
     --btn-text-color: #fff;
     --project-card-bg: #ffffff00;
     --text-color: #222;
@@ -20,6 +20,10 @@
 --text-color: #fff;
 --form-text-color: #fff;
 --footer-text-color: #bbb;
+}
+
+html, body { 
+    scroll-behavior: smooth
 }
 
 body {
@@ -38,15 +42,15 @@ margin: 0;
 padding: 0;
 }
 
-h2,
-h3,
-p {
-font-family: 'Roboto Mono', monospace;
-}
+
 
 h1,
 h2 {
 text-transform: uppercase;
+}
+
+h1 {
+font-size: 32px;
 }
 
 h2,
@@ -56,7 +60,12 @@ font-size: 20px;
 
 h1 {
 font-family: 'Rubik', sans-serif;
-font-size: 32px;
+}
+
+h2,
+h3,
+{
+font-family: 'Roboto Mono', monospace;
 }
 
 p {

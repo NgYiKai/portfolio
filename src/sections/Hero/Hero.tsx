@@ -18,14 +18,17 @@ function Hero() {
 
   return (
     <section id="hero" className={styles.container}>
-      <div className={styles.colorModeContainer}>
+      <div className="relative">
         <img
           src={heroImg}
-          className={styles.hero}
+          className="max-w-[200px] 
+             md:max-w-[350px] md:w-[350px] 
+             xl:max-w-[400px] xl:w-[400px]
+             mx-auto"
           alt="Profile picture of Ng Yi Kai"
         />
         <img
-          className={styles.colorMode}
+          className="hidden w-6 absolute right-0 cursor-pointer"
           src={themeIcon}
           alt="Color mode icon"
           onClick={toggleTheme}

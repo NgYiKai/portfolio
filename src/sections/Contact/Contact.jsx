@@ -3,7 +3,8 @@ import styles from './ContactStyles.module.css';
 function Contact() {
   return (
     <section id="contact" className='text-center md:min-h-[80vh]'>
-      <h1 className="sectionTitle">Contact</h1>
+      <p className="text-center text-gray-600 mb-2">Get In Touch</p>
+      <h1 className="sectionTitle">Contact Me</h1>
       <form action="https://formspree.io/f/xrbzzjpe" method="post">
         <div className="formGroup">
           <label htmlFor="name" hidden>

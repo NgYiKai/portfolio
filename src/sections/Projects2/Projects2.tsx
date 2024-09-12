@@ -10,8 +10,8 @@ function Projects2() {
       src: cobra,
       h3: "Phone Cobra",
       p: "E-commerce platform for custom phone cases built using React, Next.js, TailwindCSS, Prisma and Postgresql",
-      githubLink: "#",
-      demoLink: "#"
+      githubLink: "https://github.com/NgYiKai/e-commerce-cobra",
+      demoLink: "https://phonecobra.vercel.app/"
     },
     {
       src: cobra,

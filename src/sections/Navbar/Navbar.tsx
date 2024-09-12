@@ -13,23 +13,23 @@ const Navbar = () => {
         <nav className="bg-white sticky  top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
-                    <div className="flex items-center">
+                    <div className="flex items-center invisible">
                         <a href="/" className="text-2xl font-bold text-primary">
-                            Logo
+                            Ng Yi Kai
                         </a>
                     </div>
                     <div className="hidden md:block">
                         <div className="ml-10 flex items-baseline space-x-4">
-                            <a href="#hero" className="text-primary-foreground hover:text-primary px-3 py-2 rounded-md text-sm font-medium">
-                                Home
-                            </a>
                             <a href="#about" className="text-primary-foreground hover:text-primary px-3 py-2 rounded-md text-sm font-medium">
-                                About
+                                About Me
                             </a>
                             <a href="#projects" className="text-primary-foreground hover:text-primary px-3 py-2 rounded-md text-sm font-medium">
-                                Services
+                                Projects
                             </a>
                             <a href="#skills" className="text-primary-foreground hover:text-primary px-3 py-2 rounded-md text-sm font-medium">
+                                Experience
+                            </a>
+                            <a href="#contact" className="text-primary-foreground hover:text-primary px-3 py-2 rounded-md text-sm font-medium">
                                 Contact
                             </a>
                         </div>
@@ -53,18 +53,18 @@ const Navbar = () => {
             </div>
 
             {isMenuOpen && (
-                <div className="md:hidden" id="mobile-menu">
+                <div className="md:hidden fixed bg-white w-full" id="mobile-menu">
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                        <a href="/" className="text-primary-foreground hover:text-primary block px-3 py-2 rounded-md text-base font-medium">
-                            Home
+                        <a href="#about" className="text-primary-foreground hover:text-primary block px-3 py-2 rounded-md text-base font-medium" onClick={toggleMenu} >
+                            About Me
                         </a>
-                        <a href="#about" className="text-primary-foreground hover:text-primary block px-3 py-2 rounded-md text-base font-medium">
-                            About
+                        <a href="#projects" className="text-primary-foreground hover:text-primary block px-3 py-2 rounded-md text-base font-medium" onClick={toggleMenu}>
+                            Projects
                         </a>
-                        <a href="#projects" className="text-primary-foreground hover:text-primary block px-3 py-2 rounded-md text-base font-medium">
-                            Services
+                        <a href="#skills" className="text-primary-foreground hover:text-primary block px-3 py-2 rounded-md text-base font-medium" onClick={toggleMenu}>
+                            Experience
                         </a>
-                        <a href="#skills" className="text-primary-foreground hover:text-primary block px-3 py-2 rounded-md text-base font-medium">
+                        <a href="#contact" className="text-primary-foreground hover:text-primary block px-3 py-2 rounded-md text-base font-medium" onClick={toggleMenu}>
                             Contact
                         </a>
                     </div>

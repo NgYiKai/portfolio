@@ -12,41 +12,47 @@ interface SkillCategory {
 
 const skillCategories: SkillCategory[] = [
   {
-    title: "Frontend Development",
+    title: "Languages",
     skills: [
       { name: "HTML", level: "Experienced" },
       { name: "CSS", level: "Experienced" },
-      { name: "SASS", level: "Intermediate" },
       { name: "JavaScript", level: "Basic" },
       { name: "TypeScript", level: "Basic" },
-      { name: "Material UI", level: "Intermediate" },
+      { name: "Java", level: "Intermediate" },
+      { name: "Go", level: "Intermediate" },
+      { name: "Python", level: "Intermediate" },
+      { name: "C++", level: "Intermediate" },
+      { name: "PHP", level: "Intermediate" },
     ],
   },
   {
-    title: "Backend Development",
+    title: "Frameworks",
     skills: [
-      { name: "PostgreSQL", level: "Basic" },
-      { name: "Node JS", level: "Intermediate" },
+      { name: "Angular", level: "Basic" },
+      { name: "React", level: "Intermediate" },
+      { name: "Next.js", level: "Intermediate" },
+      { name: "Nest.js", level: "Intermediate" },
       { name: "Express JS", level: "Intermediate" },
-      { name: "Git", level: "Intermediate" },
+      { name: "Laravel", level: "Intermediate" },
     ],
   },
   {
-    title: "Backend Development",
+    title: "Technologies",
     skills: [
-      { name: "PostgreSQL", level: "Basic" },
       { name: "Node JS", level: "Intermediate" },
+      { name: "PostgreSQL", level: "Basic" },
       { name: "Express JS", level: "Intermediate" },
       { name: "Git", level: "Intermediate" },
+      { name: "Docker", level: "Intermediate" },
     ],
   },
   {
-    title: "Backend Development",
+    title: "Concepts",
     skills: [
-      { name: "PostgreSQL", level: "Basic" },
-      { name: "Node JS", level: "Intermediate" },
-      { name: "Express JS", level: "Intermediate" },
-      { name: "Git", level: "Intermediate" },
+      { name: "DevOps", level: "Basic" },
+      { name: "OOP", level: "Intermediate" },
+      { name: "Agile", level: "Intermediate" },
+      { name: "Data structure", level: "Intermediate" },
     ],
   },
 ]
@@ -66,9 +72,9 @@ function SkillCategory({ title, skills }: SkillCategory) {
 
 function SkillItem({ name }: Skill) {
   return (
-    <div className="flex items-center space-x-3">
+    <div className="flex items-center gap-2">
       <CheckCircle className="text-primary w-5 h-5 flex-shrink-0" />
-        <h3 className="font-medium text-gray-900">{name}</h3>
+      <span className="font-normal text-gray-900 leading-6">{name}</span>
     </div>
   )
 }
@@ -76,7 +82,7 @@ function SkillItem({ name }: Skill) {
 
 const Skills2 = () => {
     return (
-      <section id="skills" className="py-16">
+      <section id="skills" className="py-16 min-h-screen">
         <div className="container mx-auto px-4">
           <p className="text-center text-gray-500 text-lg mb-2">Explore My</p>
           <h1 className="text-center text-4xl font-bold mb-12">Experience</h1>
