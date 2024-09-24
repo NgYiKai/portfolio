@@ -2,7 +2,7 @@ import styles from './ContactStyles.module.css';
 
 function Contact() {
   return (
-    <section id="contact" className='text-center md:min-h-[80vh]'>
+    <section id="contact" className='text-center md:min-h-[80vh] py-16'>
       <p className="text-center text-gray-600 mb-2">Get In Touch</p>
       <h1 className="sectionTitle">Contact Me</h1>
       <form action="https://formspree.io/f/xrbzzjpe" method="post" className={styles.form}>

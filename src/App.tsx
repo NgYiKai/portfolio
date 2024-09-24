@@ -4,8 +4,8 @@ import Footer from './sections/Footer/Footer';
 import Hero from './sections/Hero/Hero';
 import Navbar from './sections/Navbar/Navbar';
 import AboutMe from './sections/AboutMe/AboutMe';
-import Projects2 from './sections/Projects2/Projects2';
-import Skills2 from './sections/Skills2/Skills2';
+import Projects2 from './sections/Projects/Projects';
+import Skills2 from './sections/Skills/Skills';
 
 
 function App() {
