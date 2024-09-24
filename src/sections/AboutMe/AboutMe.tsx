@@ -59,7 +59,7 @@ const AboutMe = () => {
                   My professional interests span distributed systems, AI, and fintech, and I'm always eager to explore new technological frontiers.
                   </p>
                   <p className='mt-4'>
-                  On a personal level, I'm passionate about self-improvement and personal growth.. I believe in the power of continuous learning and strive to grow both professionally and personally every day. 
+                  On a personal level, I'm passionate about self-improvement and personal growth.I believe in the power of continuous learning and strive to grow both professionally and personally every day. 
                   </p>
                   <p className='mt-4'>
                   Thank you for taking the time to learn a bit about me. I hope you have a wonderful day!
