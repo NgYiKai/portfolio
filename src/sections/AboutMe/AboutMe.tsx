@@ -52,12 +52,19 @@ const AboutMe = () => {
                 </div>
                 <div className="text-gray-700 leading-relaxed">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-                    reprehenderit et laborum, rem, dolore eum quod voluptate
-                    exercitationem nobis, nihil esse debitis maxime facere minus sint
-                    delectus velit in eos quo officiis explicabo deleniti dignissimos.
-                    Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-                    reiciendis ea magnam? Nulla, impedit fuga!
+                    I'm a software engineer with over four years of experience in backend and full stack development.
+                  </p>
+                  <p className='mt-4'>
+                  Throughout my career, I've worked with a diverse set of programming languages, libraries, frameworks, and technologies, including Java, Python, TypeScript, React, PHP, Laravel, Angular and etc.
+                  </p>
+                  <p className='mt-4'>
+                  My professional interests span distributed systems, AI, and fintech, and I'm always eager to explore new technological frontiers.
+                  </p>
+                  <p className='mt-4'>
+                  On a personal level, I'm passionate about self-improvement and personal growth.. I believe in the power of continuous learning and strive to grow both professionally and personally every day. 
+                  </p>
+                  <p className='mt-4'>
+                  Thank you for taking the time to learn a bit about me. I hope you have a wonderful day!
                   </p>
                 </div>
               </div>

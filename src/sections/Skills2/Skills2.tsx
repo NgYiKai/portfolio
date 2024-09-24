@@ -41,18 +41,22 @@ const skillCategories: SkillCategory[] = [
     skills: [
       { name: "Node JS", level: "Intermediate" },
       { name: "PostgreSQL", level: "Basic" },
-      { name: "Express JS", level: "Intermediate" },
       { name: "Git", level: "Intermediate" },
       { name: "Docker", level: "Intermediate" },
+      { name: "AWS", level: "Intermediate" },
+      { name: "Google Cloud", level: "Intermediate" },
+      { name: "Redis", level: "Intermediate" },
     ],
   },
   {
     title: "Concepts",
     skills: [
       { name: "DevOps", level: "Basic" },
-      { name: "OOP", level: "Intermediate" },
+      { name: "CI/CD", level: "Intermediate" },
       { name: "Agile", level: "Intermediate" },
+      { name: "Algorithm", level: "Intermediate" },
       { name: "Data structure", level: "Intermediate" },
+      { name: "Test-driven development", level: "Intermediate" }
     ],
   },
 ]

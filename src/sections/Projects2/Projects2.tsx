@@ -1,7 +1,9 @@
-import ProjectCard2 from '../../common/ProjectCard2/ProjectCard2';
-import styles from './Projects2.module.css';
-import cobra from '../../assets/projects/cobra.png';
-import { ChevronDown, Github } from 'lucide-react';
+import cobra from '../../assets/projects/cobra-screenshot.png';
+import ranker from '../../assets/projects/ranker-screenshot.png'
+import survey from '../../assets/projects/survey-screenshot.png'
+import interpreter from '../../assets/projects/compiler.png'
+import fileStorage from '../../assets/projects/file-storage.png'
+import { ChevronDown } from 'lucide-react';
 
 function Projects2() {
 
@@ -9,37 +11,35 @@ function Projects2() {
     {
       src: cobra,
       h3: "Phone Cobra",
-      p: "E-commerce platform for custom phone cases built using React, Next.js, TailwindCSS, Prisma and Postgresql",
+      p: "Built an e-commerce platform for custom phone cases using React, Next.js, Tailwinds, Prisma, and PostgreSQL, integrating secure payment processing with Stripe to ensure smooth and reliable transaction handling.",
       githubLink: "https://github.com/NgYiKai/e-commerce-cobra",
       demoLink: "https://phonecobra.vercel.app/"
     },
     {
-      src: cobra,
-      h3: "Project Two",
-      p: "Another amazing project description goes here. Built with cutting-edge technologies.",
-      githubLink: "#",
-      demoLink: "#"
+      src: ranker,
+      h3: "Rankr",
+      p: "Developed a real-time ranked-choice voting app for group decisions (e.g., movies or dining) using React, NestJS, Socket.io, and Redis, enabling real-time updates and seamless group decision-making with a robust back-end.",
+      githubLink: "https://github.com/NgYiKai/ranker",
+      demoLink: "https://ranker-client.vercel.app/"
     },
     {
-      src: cobra,
-      h3: "Project Three",
-      p: "A third impressive project showcasing your skills and expertise in web development.",
-      githubLink: "#",
-      demoLink: "#"
+      src: survey,
+      h3: "SurveyFlow",
+      p: "Designed and implemented a survey creation and response collection app using React UI and Laravel backend, streamlining data collection and response management to enhance user experience and operational efficiency.",
+      githubLink: "https://github.com/NgYiKai/survey-laravel",
+      demoLink: "https://survey-laravel.pages.dev/"
     },
     {
-      src: cobra,
-      h3: "Project Three",
-      p: "A third impressive project showcasing your skills and expertise in web development.",
-      githubLink: "#",
-      demoLink: "#"
+      src: fileStorage,
+      h3: "Decentralized Content-Addressable File Storage System",
+      p: "Developed a fully decentralized, distributed file storage system using Go, optimized for handling and streaming large files efficiently by applying advanced distributed systems concepts like data replication and p2p networking.",
+      githubLink: "https://github.com/NgYiKai/distributed-file-storage-s",
     },
     {
-      src: cobra,
-      h3: "Project Three",
-      p: "A third impressive project showcasing your skills and expertise in web development.",
-      githubLink: "#",
-      demoLink: "#"
+      src: interpreter,
+      h3: "Kai",
+      p: "Created an interpreter for Kai, a custom scripting language, written in Java that support rich syntax, dynamic typing, garbage collection, first-class functions, closures, classes, and inheritance, delivering a feature-rich and efficient language for various applications",
+      githubLink: "https://github.com/NgYiKai/interpreter"
     }
   ]
 
@@ -60,39 +60,51 @@ function Projects2() {
         <div className="space-y-12">
           {projects.map((project,i) => (
             <div key={i} className="flex flex-col md:flex-row items-center gap-8">
-              <div className="w-full md:w-1/3">
+              <div className="w-full md:w-2/5 flex justify-center">
                 <img
                   src={project.src}
                   alt={project.h3}
-                  width={400}
-                  height={400}
-                  className="rounded-lg shadow-md"
+                  className="rounded-lg shadow-md  max-h-[30svh]"
                 />
               </div>
-              <div className="w-full md:w-2/3">
+              <div className="w-full md:w-3/5">
                 <h3 className="text-2xl font-bold mb-2">{project.h3}</h3>
                 <p className="text-gray-600 mb-4">{project.p}</p>
                 <div className="flex gap-4">
                   <a
                     href={project.githubLink}
+                    target='_blank'
                     className="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                     aria-label="View project on GitHub"
                   >
-                    <Github className="w-5 h-5 mr-2" aria-hidden="true" />
+                    <span className='w-5 mr-2' aria-hidden="true">{githubIcon}</span>
                     <span>GitHub</span>
                   </a>
-                  <a
-                    href={project.demoLink}
-                    className="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                    aria-label="View live demo of the project"
-                  >
-                    Live Demo
-                  </a>
+                  {
+                    project.demoLink && (
+                      <a
+                      href={project.demoLink}
+                      target='_blank'
+                      className="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                      aria-label="View live demo of the project"
+                    >Live Demo</a>
+                    )
+                  }
                 </div>
               </div>
             </div>
           ))}
         </div>
+
+        <p className='mt-16 font-bold text-xl'>
+          Note:
+        </p>
+        <p className='italic'>
+        While this is not an exhaustive list of all my projects, I have also worked on other projects such as HTTP server written in C++, a Redis clone implemented in C++, a PHP-based queue management system, and a Java-based inventory management system.
+        </p>
+        <p className='mt-4 italic'>
+        Feel free visit my GitHub repository to explore more of my projects and their details. Please note that some of these projects may be in a less well-documented ,less-developed or maintained state.
+        </p>
 
         <div className="flex justify-center mt-12">
             <a
