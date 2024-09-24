@@ -1,5 +1,3 @@
-import './AboutMe.css';
-import arrowIcon from '../../assets/arrow.png'
 import experienceIcon from '../../assets/experience.png'
 import educationIcon from '../../assets/education.png'
 import aboutPic from '../../assets/aboutMe.png'

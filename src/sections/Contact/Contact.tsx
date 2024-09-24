@@ -5,7 +5,7 @@ function Contact() {
     <section id="contact" className='text-center md:min-h-[80vh]'>
       <p className="text-center text-gray-600 mb-2">Get In Touch</p>
       <h1 className="sectionTitle">Contact Me</h1>
-      <form action="https://formspree.io/f/xrbzzjpe" method="post">
+      <form action="https://formspree.io/f/xrbzzjpe" method="post" className={styles.form}>
         <div className="formGroup">
           <label htmlFor="name" hidden>
             Name
